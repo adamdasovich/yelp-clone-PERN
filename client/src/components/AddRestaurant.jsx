@@ -55,12 +55,11 @@ const AddRestaurant = () => {
               onChange={(e) => setPrice(e.target.value)}
               value={price}
             >
-              <option disabled>Price Range</option>
-              <option value="1">$</option>
-              <option value="2">$$</option>
-              <option value="3">$$$</option>
-              <option value="4">$$$$</option>
-              <option value="5">$$$$$</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
             </select>
           </div>
           <button type="submit" disabled={isDisabled} className="col-auto btn btn-primary">ADD</button>
