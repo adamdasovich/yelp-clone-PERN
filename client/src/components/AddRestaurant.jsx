@@ -37,7 +37,7 @@ const AddRestaurant = () => {
               value={name}
               className="form-control"
               onChange={(e) => setName(e.target.value)}
-              placeholder="name"
+              placeholder="Your name"
             />
           </div>
           <div className="col">
@@ -46,7 +46,7 @@ const AddRestaurant = () => {
               value={location}
               className="form-control"
               onChange={(e) => setLocation(e.target.value)}
-              placeholder="location"
+              placeholder="flavor"
             />
           </div>
           <div className="col">
