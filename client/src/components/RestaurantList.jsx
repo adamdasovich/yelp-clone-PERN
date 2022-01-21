@@ -74,10 +74,10 @@ const RestaurantList = (props) => {
       <table className="table table-striped table-hover table-dark">
         <thead>
           <tr className="bg-primary">
-            <th scope="col">Restaurant</th>
-            <th scope="col">Location</th>
-            <th scope="col">Price Range</th>
-            <th scope="col">Ratings</th>
+            <th scope="col">Client</th>
+            <th scope="col">Address</th>
+            <th scope="col">Number of units</th>
+            <th scope="col">Flavour</th>
             <th scope="col">Edit</th>
             <th scope="col">Delete</th>
           </tr>
