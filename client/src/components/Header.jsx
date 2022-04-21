@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-      <h1 className="font-weight-light display-1 text-center">Cup Cakes</h1>
+      <h1 className="font-weight-dark display-1 color-red text-center">Adam Rocks!</h1>
     </div>
   )
 }
