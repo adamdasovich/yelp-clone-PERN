@@ -1,0 +1,22 @@
+{
+  "name": "yelp-clone-pern",
+  "version": "1.0.0",
+  "description": "to heroku",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamdasovich/yelp-clone-PERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamdasovich/yelp-clone-PERN/issues"
+  },
+  "homepage": "https://github.com/adamdasovich/yelp-clone-PERN#readme"
+}
